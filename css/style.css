@@ -385,7 +385,7 @@ header .navbar ul li a:hover {
 }
 
 .home h1 {
-  animation: 3s .5s anim-lineUp ease-out forwards;
+  animation: 2s .5s anim-lineUp ease-out forwards;
 }
 
 @keyframes anim-lineUp {
@@ -409,18 +409,14 @@ header .navbar ul li a:hover {
   }
 }
 
+.error_message {
+  color: red;
+  font-size: 1.5rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.d-none {
+  display: none;
+}
 
 /* media queries  */
 
